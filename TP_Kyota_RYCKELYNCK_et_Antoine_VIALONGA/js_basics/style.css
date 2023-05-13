@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background: linear-gradient(to right, #0077C2, #72C56F);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.header h1 {
+  margin: 0;
+  text-align: center; /* Nouvelle ligne pour centrer le texte */
+}
+
+.header img {
+  height: 60px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 70%;
+}
+
+button {
+  padding: 10px;
+  background-color: #07cbcb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between; /* Nouvelle ligne pour aligner les croix rouges à droite */
+  align-items: center; /* Nouvelle ligne pour centrer les croix rouges verticalement */
+}
+
+.note-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between; /* Nouvelle ligne pour aligner les croix rouges à droite */
+  align-items: center; /* Nouvelle ligne pour centrer les croix rouges verticalement */
+}
+
+.note-item .delete-note-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.note-item .delete-note-btn img {
+  width: 20px;
+  height: 20px;
+}
